@@ -6,10 +6,18 @@
     <title>Login</title>
 </head>
 <body>
-   <h1>Login as existing user</h1>
-   <div>    
-    <a href="./index.html">Home</a>
-    <a href="./register.html">Register</a>
-   </div> 
+    <h1>Login as existing user</h1>
+    
+    <form action="" id="login">
+        <input type="text" placeholder="enter your username or email" required name="username/email">
+        <input type="password" placeholder="enter your password" required name="password">
+        <button type="log-in">log-in</button>
+    </form>
+    <h1 id="message"></h1>
+    <div>    
+        <a href="./index.html">Home</a>
+        <a href="./register.html">Register</a>
+    </div> 
+    <script src="./scripts/login.js"></script>
 </body>
 </html>
